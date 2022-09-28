@@ -84,7 +84,7 @@ struct TabBarView: View {
                 }//Repeat
             }//HStack
         }//ZStack
-        .frame(width: Screen.sizeFromWidth(size: 289), height:  66)
+        .frame(height:  66)
     }
 }
 

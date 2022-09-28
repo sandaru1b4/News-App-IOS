@@ -31,7 +31,7 @@ struct LatestNewsCardView: View {
                     ProgressView()
                 }
                 .scaledToFill()
-                .frame(width: 321 ,height: 240, alignment: .center)
+                .frame(height: 240, alignment: .center)
                 .cornerRadius(8)
                 .clipped()
                 .overlay(

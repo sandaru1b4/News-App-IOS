@@ -25,13 +25,13 @@ struct MainTabView: View {
                 VStack(spacing: 0) {
                     switch selectedIndex{
                     case 0:
-                        Text("Tab1")
+                        HomeView()
                         
                     case 1:
-                        Text("Tab2")
+                        FavoriteView()
                         
                     default:
-                        Text("Tab3")
+                        ProfileView()
                     }
                     Spacer(minLength: 0)
                 }//VStack
@@ -41,6 +41,7 @@ struct MainTabView: View {
                     //TabBar
                     TabBarView(tabBarHeight: 43, selectedIndex: $selectedIndex, tabsInfo: $tabsInfo)
                         .padding(.bottom, 30)
+                        .padding(.horizontal, 40)
                     
                 }
                 

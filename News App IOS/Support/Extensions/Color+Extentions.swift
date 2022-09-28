@@ -15,6 +15,7 @@ enum NewsAppColors: String {
     case tabBarDeselectTxtClr
     case _E0E0E0 = "#E0E0E0"
     case _818181 = "#818181"
+    case _F5F5F5 = "#F5F5F5"
 }
 
 extension Color {

@@ -27,9 +27,9 @@ struct HomeSearchBarView: View {
         .padding(.horizontal, 16)
         .background(
             ZStack {
-                RoundedRectangle(cornerRadius: 10)
+                RoundedRectangle(cornerRadius: 16)
                     .fill(.white)
-                RoundedRectangle(cornerRadius: 10)
+                RoundedRectangle(cornerRadius: 16)
                     .stroke(Color.custom(._E0E0E0))
             }//ZStack
         )
