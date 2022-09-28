@@ -15,8 +15,6 @@ struct HomeView: View {
     //MARK: - BODY
     var body: some View {
         
-        ZStack {
-            
             VStack(spacing: 0) {
                 
                 //Top Bar
@@ -42,6 +40,7 @@ struct HomeView: View {
                                 Spacer()
                                 //see all button
                                 Button(action: {
+                                    print("button tap")
                                     //
                                 }) {
                                     HStack(spacing: 28) {
@@ -57,7 +56,7 @@ struct HomeView: View {
                     }
                     .padding(.horizontal, 15)
                     
-                    //sections
+                    //Category sections
                     ScrollView(.horizontal, showsIndicators: false) {
                         
                         HStack(spacing: 8) {
@@ -71,18 +70,25 @@ struct HomeView: View {
                         
                     }
                     .padding(.top, 24)
+                    .padding(.bottom, 16)
                     
                     
-                    LazyVStack {
+                    //News List
+                    ScrollView(showsIndicators: false) {
                         
-                    }//VStack
-                    
-                    
-                }
+                        LazyVStack(spacing: 8) {
+                            ForEach(0..<10) { _ in
+                                NewsSectionCardView(imgUrlString: "https://picsum.photos/seed/picsum/200/300", title: "5 things to know about the 'conundrum' of lupus", name: "Matt Villano", date: "Sunday, 9 May 2021")
+                            }
+                        }//LazyVStack
+                        .padding(.horizontal, 15)
+                        
+                    }//Vertical Scroll
+                }//Vertical Scroll
                 
             }//VStack
-            
-        }//ZStack
+            .navigationTitle("")
+            .navigationBarBackButtonHidden(true)
         
     }
 }

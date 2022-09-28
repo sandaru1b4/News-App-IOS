@@ -44,6 +44,7 @@
 		84E6C0FF28E49E39009F2CE4 /* FloatingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0FE28E49E39009F2CE4 /* FloatingBtnView.swift */; };
 		84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10028E49F72009F2CE4 /* FavoriteView.swift */; };
 		84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10228E49FA8009F2CE4 /* ProfileView.swift */; };
+		84E6C10528E4ADAC009F2CE4 /* NewsSectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10428E4ADAC009F2CE4 /* NewsSectionCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		84E6C0FE28E49E39009F2CE4 /* FloatingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBtnView.swift; sourceTree = "<group>"; };
 		84E6C10028E49F72009F2CE4 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		84E6C10228E49FA8009F2CE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		84E6C10428E4ADAC009F2CE4 /* NewsSectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSectionCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				84E6C0E928E486CA009F2CE4 /* LatestNewsCardView.swift */,
+				84E6C10428E4ADAC009F2CE4 /* NewsSectionCardView.swift */,
 			);
 			path = CardViews;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */,
 				84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */,
 				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
+				84E6C10528E4ADAC009F2CE4 /* NewsSectionCardView.swift in Sources */,
 				84E6C0CA28E46DD2009F2CE4 /* TabBarView.swift in Sources */,
 				84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */,
 				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
