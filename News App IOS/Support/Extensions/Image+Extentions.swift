@@ -12,6 +12,9 @@ enum NewsAppImages: String {
     case ic_home
     case ic_profile
     case ic_notification
+    case ic_search
+    case ic_back
+    case ic_filter
 }
 
 extension String {

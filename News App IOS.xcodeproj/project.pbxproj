@@ -32,6 +32,18 @@
 		84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */; };
 		84E6C0DD28E4833F009F2CE4 /* RappleProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */; };
 		84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0DE28E48371009F2CE4 /* Extensions.swift */; };
+		84E6C0E328E48635009F2CE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0E228E48635009F2CE4 /* HomeView.swift */; };
+		84E6C0E828E48678009F2CE4 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0E728E48678009F2CE4 /* HomeVM.swift */; };
+		84E6C0EA28E486CA009F2CE4 /* LatestNewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0E928E486CA009F2CE4 /* LatestNewsCardView.swift */; };
+		84E6C0ED28E48752009F2CE4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84E6C0EC28E48752009F2CE4 /* SDWebImageSwiftUI */; };
+		84E6C0F028E48DC1009F2CE4 /* HomeSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0EF28E48DC1009F2CE4 /* HomeSearchBarView.swift */; };
+		84E6C0F528E49176009F2CE4 /* NotificationBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0F428E49176009F2CE4 /* NotificationBtnView.swift */; };
+		84E6C0F828E491CB009F2CE4 /* FilterBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0F728E491CB009F2CE4 /* FilterBtnView.swift */; };
+		84E6C0FB28E49592009F2CE4 /* NavBarWithBackBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0FA28E49592009F2CE4 /* NavBarWithBackBtnView.swift */; };
+		84E6C0FD28E499D4009F2CE4 /* SectionBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0FC28E499D4009F2CE4 /* SectionBtnView.swift */; };
+		84E6C0FF28E49E39009F2CE4 /* FloatingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0FE28E49E39009F2CE4 /* FloatingBtnView.swift */; };
+		84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10028E49F72009F2CE4 /* FavoriteView.swift */; };
+		84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10228E49FA8009F2CE4 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +73,17 @@
 		84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornarRadiusStyle.swift; sourceTree = "<group>"; };
 		84E6C0DE28E48371009F2CE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84E6C0E228E48635009F2CE4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84E6C0E728E48678009F2CE4 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		84E6C0E928E486CA009F2CE4 /* LatestNewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsCardView.swift; sourceTree = "<group>"; };
+		84E6C0EF28E48DC1009F2CE4 /* HomeSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBarView.swift; sourceTree = "<group>"; };
+		84E6C0F428E49176009F2CE4 /* NotificationBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBtnView.swift; sourceTree = "<group>"; };
+		84E6C0F728E491CB009F2CE4 /* FilterBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBtnView.swift; sourceTree = "<group>"; };
+		84E6C0FA28E49592009F2CE4 /* NavBarWithBackBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarWithBackBtnView.swift; sourceTree = "<group>"; };
+		84E6C0FC28E499D4009F2CE4 /* SectionBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBtnView.swift; sourceTree = "<group>"; };
+		84E6C0FE28E49E39009F2CE4 /* FloatingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBtnView.swift; sourceTree = "<group>"; };
+		84E6C10028E49F72009F2CE4 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		84E6C10228E49FA8009F2CE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E6C0ED28E48752009F2CE4 /* SDWebImageSwiftUI in Frameworks */,
 				84E6C0DD28E4833F009F2CE4 /* RappleProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +161,10 @@
 		84ACDE1B28E3CE3900025210 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				84E6C0F928E49561009F2CE4 /* NavBar */,
+				84E6C0F128E49135009F2CE4 /* Buttons */,
+				84E6C0EE28E48D95009F2CE4 /* SearchBar */,
+				84E6C0E028E48599009F2CE4 /* CardViews */,
 				84E6C0D528E47AC9009F2CE4 /* Tab */,
 			);
 			path = CustomViews;
@@ -200,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				84E6C0D028E4704C009F2CE4 /* MainTabView.swift */,
+				84E6C0E128E48607009F2CE4 /* MainTabs */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -251,6 +280,76 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
+		84E6C0E028E48599009F2CE4 /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0E928E486CA009F2CE4 /* LatestNewsCardView.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
+		84E6C0E128E48607009F2CE4 /* MainTabs */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0E428E4863A009F2CE4 /* Home */,
+				84E6C0E528E48648009F2CE4 /* Favourites */,
+				84E6C0E628E48652009F2CE4 /* Profile */,
+			);
+			path = MainTabs;
+			sourceTree = "<group>";
+		};
+		84E6C0E428E4863A009F2CE4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0E228E48635009F2CE4 /* HomeView.swift */,
+				84E6C0E728E48678009F2CE4 /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84E6C0E528E48648009F2CE4 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C10028E49F72009F2CE4 /* FavoriteView.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		84E6C0E628E48652009F2CE4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C10228E49FA8009F2CE4 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		84E6C0EE28E48D95009F2CE4 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0EF28E48DC1009F2CE4 /* HomeSearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		84E6C0F128E49135009F2CE4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0F428E49176009F2CE4 /* NotificationBtnView.swift */,
+				84E6C0F728E491CB009F2CE4 /* FilterBtnView.swift */,
+				84E6C0FC28E499D4009F2CE4 /* SectionBtnView.swift */,
+				84E6C0FE28E49E39009F2CE4 /* FloatingBtnView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		84E6C0F928E49561009F2CE4 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0FA28E49592009F2CE4 /* NavBarWithBackBtnView.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -269,6 +368,7 @@
 			name = "News App IOS";
 			packageProductDependencies = (
 				84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */,
+				84E6C0EC28E48752009F2CE4 /* SDWebImageSwiftUI */,
 			);
 			productName = "News App IOS";
 			productReference = 84DE764028E3C7C8000E0BDA /* News App IOS.app */;
@@ -300,6 +400,7 @@
 			mainGroup = 84DE763728E3C7C8000E0BDA;
 			packageReferences = (
 				84E6C0DB28E4833F009F2CE4 /* XCRemoteSwiftPackageReference "RappleProgressHUD" */,
+				84E6C0EB28E48752009F2CE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 84DE764128E3C7C8000E0BDA /* Products */;
 			projectDirPath = "";
@@ -338,17 +439,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DE764628E3C7C8000E0BDA /* ContentView.swift in Sources */,
+				84E6C0F028E48DC1009F2CE4 /* HomeSearchBarView.swift in Sources */,
 				84ACDE3428E3D25100025210 /* Image+Extentions.swift in Sources */,
+				84E6C0EA28E486CA009F2CE4 /* LatestNewsCardView.swift in Sources */,
+				84E6C0E328E48635009F2CE4 /* HomeView.swift in Sources */,
 				84E6C0D128E4704C009F2CE4 /* MainTabView.swift in Sources */,
 				84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */,
 				84DE764428E3C7C8000E0BDA /* News_App_IOSApp.swift in Sources */,
+				84E6C0F828E491CB009F2CE4 /* FilterBtnView.swift in Sources */,
 				84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */,
 				84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */,
 				84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */,
+				84E6C0FB28E49592009F2CE4 /* NavBarWithBackBtnView.swift in Sources */,
+				84E6C0F528E49176009F2CE4 /* NotificationBtnView.swift in Sources */,
+				84E6C0E828E48678009F2CE4 /* HomeVM.swift in Sources */,
+				84E6C0FD28E499D4009F2CE4 /* SectionBtnView.swift in Sources */,
+				84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */,
+				84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */,
 				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
 				84E6C0CA28E46DD2009F2CE4 /* TabBarView.swift in Sources */,
 				84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */,
 				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
+				84E6C0FF28E49E39009F2CE4 /* FloatingBtnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +605,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Achitha-Sandaruwan.News-App-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,6 +638,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Achitha-Sandaruwan.News-App-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,6 +679,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		84E6C0EB28E48752009F2CE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -568,6 +694,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84E6C0DB28E4833F009F2CE4 /* XCRemoteSwiftPackageReference "RappleProgressHUD" */;
 			productName = RappleProgressHUD;
+		};
+		84E6C0EC28E48752009F2CE4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84E6C0EB28E48752009F2CE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
