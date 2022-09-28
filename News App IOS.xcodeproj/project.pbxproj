@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84ACDE2728E3D11800025210 /* Nunito Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */; };
+		84ACDE2828E3D11800025210 /* Nunito Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */; };
+		84ACDE2928E3D11800025210 /* Nunito Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */; };
+		84ACDE2A28E3D11800025210 /* Nunito Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2028E3D11800025210 /* Nunito Black.ttf */; };
+		84ACDE2B28E3D11800025210 /* Nunito SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2128E3D11800025210 /* Nunito SemiBold.ttf */; };
+		84ACDE2C28E3D11800025210 /* Nunito ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2228E3D11800025210 /* Nunito ExtraBold.ttf */; };
+		84ACDE2D28E3D11800025210 /* Nunito Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2328E3D11800025210 /* Nunito Light.ttf */; };
+		84ACDE2E28E3D11800025210 /* New York Small Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2428E3D11800025210 /* New York Small Semibold.ttf */; };
+		84ACDE2F28E3D11800025210 /* New York Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2528E3D11800025210 /* New York Bold.ttf */; };
+		84ACDE3028E3D11800025210 /* Nunito ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE2628E3D11800025210 /* Nunito ExtraLight.ttf */; };
+		84ACDE3428E3D25100025210 /* Image+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDE3328E3D25100025210 /* Image+Extentions.swift */; };
+		84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDE3528E3D29E00025210 /* Fonts+Extentions.swift */; };
+		84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDE3728E3D2B900025210 /* Color+Extentions.swift */; };
 		84DE764428E3C7C8000E0BDA /* News_App_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE764328E3C7C8000E0BDA /* News_App_IOSApp.swift */; };
 		84DE764628E3C7C8000E0BDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE764528E3C7C8000E0BDA /* ContentView.swift */; };
 		84DE764828E3C7C9000E0BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DE764728E3C7C9000E0BDA /* Assets.xcassets */; };
@@ -14,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Bold.ttf"; sourceTree = "<group>"; };
+		84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Regular.ttf"; sourceTree = "<group>"; };
+		84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Medium.ttf"; sourceTree = "<group>"; };
+		84ACDE2028E3D11800025210 /* Nunito Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Black.ttf"; sourceTree = "<group>"; };
+		84ACDE2128E3D11800025210 /* Nunito SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito SemiBold.ttf"; sourceTree = "<group>"; };
+		84ACDE2228E3D11800025210 /* Nunito ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito ExtraBold.ttf"; sourceTree = "<group>"; };
+		84ACDE2328E3D11800025210 /* Nunito Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Light.ttf"; sourceTree = "<group>"; };
+		84ACDE2428E3D11800025210 /* New York Small Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New York Small Semibold.ttf"; sourceTree = "<group>"; };
+		84ACDE2528E3D11800025210 /* New York Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New York Bold.ttf"; sourceTree = "<group>"; };
+		84ACDE2628E3D11800025210 /* Nunito ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito ExtraLight.ttf"; sourceTree = "<group>"; };
+		84ACDE3328E3D25100025210 /* Image+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extentions.swift"; sourceTree = "<group>"; };
+		84ACDE3528E3D29E00025210 /* Fonts+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Extentions.swift"; sourceTree = "<group>"; };
+		84ACDE3728E3D2B900025210 /* Color+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extentions.swift"; sourceTree = "<group>"; };
+		84ACDE3928E3D53400025210 /* News-App-IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "News-App-IOS-Info.plist"; path = "News App IOS/APP/News-App-IOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		84DE764028E3C7C8000E0BDA /* News App IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE764328E3C7C8000E0BDA /* News_App_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_App_IOSApp.swift; sourceTree = "<group>"; };
 		84DE764528E3C7C8000E0BDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +59,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84ACDE1528E3CD6D00025210 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				84DE764328E3C7C8000E0BDA /* News_App_IOSApp.swift */,
+				84DE764528E3C7C8000E0BDA /* ContentView.swift */,
+				84ACDE3928E3D53400025210 /* News-App-IOS-Info.plist */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		84ACDE1628E3CD8B00025210 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDE1C28E3D0FA00025210 /* Fonts */,
+				84ACDE1928E3CDBE00025210 /* API Helper */,
+				84ACDE1828E3CDB100025210 /* Extensions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		84ACDE1728E3CD9400025210 /* View+VM */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDE1B28E3CE3900025210 /* CustomViews */,
+			);
+			path = "View+VM";
+			sourceTree = "<group>";
+		};
+		84ACDE1828E3CDB100025210 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDE3328E3D25100025210 /* Image+Extentions.swift */,
+				84ACDE3528E3D29E00025210 /* Fonts+Extentions.swift */,
+				84ACDE3728E3D2B900025210 /* Color+Extentions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84ACDE1928E3CDBE00025210 /* API Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Helper";
+			sourceTree = "<group>";
+		};
+		84ACDE1A28E3CDDE00025210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84ACDE1B28E3CE3900025210 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		84ACDE1C28E3D0FA00025210 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDE2528E3D11800025210 /* New York Bold.ttf */,
+				84ACDE2428E3D11800025210 /* New York Small Semibold.ttf */,
+				84ACDE2028E3D11800025210 /* Nunito Black.ttf */,
+				84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */,
+				84ACDE2228E3D11800025210 /* Nunito ExtraBold.ttf */,
+				84ACDE2628E3D11800025210 /* Nunito ExtraLight.ttf */,
+				84ACDE2328E3D11800025210 /* Nunito Light.ttf */,
+				84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */,
+				84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */,
+				84ACDE2128E3D11800025210 /* Nunito SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		84DE763728E3C7C8000E0BDA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +154,10 @@
 		84DE764228E3C7C8000E0BDA /* News App IOS */ = {
 			isa = PBXGroup;
 			children = (
-				84DE764328E3C7C8000E0BDA /* News_App_IOSApp.swift */,
-				84DE764528E3C7C8000E0BDA /* ContentView.swift */,
+				84ACDE1528E3CD6D00025210 /* APP */,
+				84ACDE1728E3CD9400025210 /* View+VM */,
+				84ACDE1628E3CD8B00025210 /* Support */,
+				84ACDE1A28E3CDDE00025210 /* Model */,
 				84DE764728E3C7C9000E0BDA /* Assets.xcassets */,
 				84DE764928E3C7C9000E0BDA /* Preview Content */,
 			);
@@ -125,8 +230,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ACDE2E28E3D11800025210 /* New York Small Semibold.ttf in Resources */,
+				84ACDE2B28E3D11800025210 /* Nunito SemiBold.ttf in Resources */,
+				84ACDE3028E3D11800025210 /* Nunito ExtraLight.ttf in Resources */,
 				84DE764B28E3C7C9000E0BDA /* Preview Assets.xcassets in Resources */,
+				84ACDE2C28E3D11800025210 /* Nunito ExtraBold.ttf in Resources */,
+				84ACDE2928E3D11800025210 /* Nunito Medium.ttf in Resources */,
+				84ACDE2A28E3D11800025210 /* Nunito Black.ttf in Resources */,
+				84ACDE2828E3D11800025210 /* Nunito Regular.ttf in Resources */,
+				84ACDE2728E3D11800025210 /* Nunito Bold.ttf in Resources */,
+				84ACDE2F28E3D11800025210 /* New York Bold.ttf in Resources */,
 				84DE764828E3C7C9000E0BDA /* Assets.xcassets in Resources */,
+				84ACDE2D28E3D11800025210 /* Nunito Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DE764628E3C7C8000E0BDA /* ContentView.swift in Sources */,
+				84ACDE3428E3D25100025210 /* Image+Extentions.swift in Sources */,
 				84DE764428E3C7C8000E0BDA /* News_App_IOSApp.swift in Sources */,
+				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
+				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +388,7 @@
 				DEVELOPMENT_TEAM = K5BFLFZ88U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "News-App-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +418,7 @@
 				DEVELOPMENT_TEAM = K5BFLFZ88U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "News-App-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nunito Bold</string>
+		<string>Nunito SemiBold</string>
+		<string>Nunito Regular</string>
+		<string>Nunito Light</string>
+		<string>Nunito Medium</string>
+		<string>Nunito ExtraLight</string>
+		<string>Nunito ExtraBold</string>
+		<string>Nunito Black</string>
+		<string>New York Small Semibold</string>
+		<string>New York Bold</string>
+	</array>
+</dict>
+</plist>
