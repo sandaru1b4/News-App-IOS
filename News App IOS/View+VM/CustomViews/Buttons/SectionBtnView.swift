@@ -35,7 +35,7 @@ struct SectionBtnView: View {
                             .fill(isSelected ? Color.custom(.primary) : Color.white)
                         
                         RoundedRectangle(cornerRadius: 20)
-                            .stroke(isSelected ? Color.custom(.primary).opacity(0.5) : Color.custom(._E0E0E0).opacity(0.3))
+                            .stroke(isSelected ? Color.custom(.primary).opacity(0.5) : Color.custom(._E0E0E0).opacity(0.8))
                         
                     }
                     

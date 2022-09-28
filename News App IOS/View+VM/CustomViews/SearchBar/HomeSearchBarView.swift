@@ -19,6 +19,8 @@ struct HomeSearchBarView: View {
         HStack {
             TextField(placeholder, text: $searchText)
                 .font(.customFont(.NunitoSemiBold, 12))
+                .autocorrectionDisabled(true)
+                .autocapitalization(.none)
             
             Image(.appImages(.ic_search))
                 .foregroundColor(Color.custom(._E0E0E0))

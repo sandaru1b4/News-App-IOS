@@ -28,7 +28,7 @@
 		84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0CC28E46E35009F2CE4 /* DeviceScreenSizes.swift */; };
 		84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0CE28E46E91009F2CE4 /* TabInfo.swift */; };
 		84E6C0D128E4704C009F2CE4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D028E4704C009F2CE4 /* MainTabView.swift */; };
-		84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */; };
+		84E6C0D728E47DF5009F2CE4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D628E47DF5009F2CE4 /* APIManager.swift */; };
 		84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */; };
 		84E6C0DD28E4833F009F2CE4 /* RappleProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */; };
 		84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0DE28E48371009F2CE4 /* Extensions.swift */; };
@@ -45,6 +45,8 @@
 		84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10028E49F72009F2CE4 /* FavoriteView.swift */; };
 		84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10228E49FA8009F2CE4 /* ProfileView.swift */; };
 		84E6C10528E4ADAC009F2CE4 /* NewsSectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10428E4ADAC009F2CE4 /* NewsSectionCardView.swift */; };
+		84E6C10A28E4C739009F2CE4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10928E4C739009F2CE4 /* News.swift */; };
+		84E6C10C28E4E1A1009F2CE4 /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C10B28E4E1A1009F2CE4 /* CategorySection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +73,7 @@
 		84E6C0CC28E46E35009F2CE4 /* DeviceScreenSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenSizes.swift; sourceTree = "<group>"; };
 		84E6C0CE28E46E91009F2CE4 /* TabInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabInfo.swift; sourceTree = "<group>"; };
 		84E6C0D028E4704C009F2CE4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		84E6C0D628E47DF5009F2CE4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornarRadiusStyle.swift; sourceTree = "<group>"; };
 		84E6C0DE28E48371009F2CE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		84E6C0E228E48635009F2CE4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		84E6C10028E49F72009F2CE4 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		84E6C10228E49FA8009F2CE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		84E6C10428E4ADAC009F2CE4 /* NewsSectionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSectionCardView.swift; sourceTree = "<group>"; };
+		84E6C10928E4C739009F2CE4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		84E6C10B28E4E1A1009F2CE4 /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				84E6C0D828E480DE009F2CE4 /* ViewModifiers */,
 				84E6C0CB28E46E06009F2CE4 /* DeviceResponsiveHelper */,
 				84ACDE1C28E3D0FA00025210 /* Fonts */,
+				84ACDE1928E3CDBE00025210 /* APIManager */,
 				84ACDE1828E3CDB100025210 /* Extensions */,
 			);
 			path = Support;
@@ -135,7 +140,6 @@
 		84ACDE1828E3CDB100025210 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				84ACDE1928E3CDBE00025210 /* API Helper */,
 				84ACDE3328E3D25100025210 /* Image+Extentions.swift */,
 				84ACDE3528E3D29E00025210 /* Fonts+Extentions.swift */,
 				84ACDE3728E3D2B900025210 /* Color+Extentions.swift */,
@@ -144,18 +148,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		84ACDE1928E3CDBE00025210 /* API Helper */ = {
+		84ACDE1928E3CDBE00025210 /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
-				84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */,
+				84E6C0D628E47DF5009F2CE4 /* APIManager.swift */,
 			);
-			path = "API Helper";
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		84ACDE1A28E3CDDE00025210 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				84E6C0CE28E46E91009F2CE4 /* TabInfo.swift */,
+				84E6C10928E4C739009F2CE4 /* News.swift */,
+				84E6C10B28E4E1A1009F2CE4 /* CategorySection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,6 +456,7 @@
 				84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */,
 				84DE764428E3C7C8000E0BDA /* News_App_IOSApp.swift in Sources */,
 				84E6C0F828E491CB009F2CE4 /* FilterBtnView.swift in Sources */,
+				84E6C10C28E4E1A1009F2CE4 /* CategorySection.swift in Sources */,
 				84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */,
 				84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */,
 				84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */,
@@ -462,8 +469,9 @@
 				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
 				84E6C10528E4ADAC009F2CE4 /* NewsSectionCardView.swift in Sources */,
 				84E6C0CA28E46DD2009F2CE4 /* TabBarView.swift in Sources */,
-				84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */,
+				84E6C0D728E47DF5009F2CE4 /* APIManager.swift in Sources */,
 				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
+				84E6C10A28E4C739009F2CE4 /* News.swift in Sources */,
 				84E6C0FF28E49E39009F2CE4 /* FloatingBtnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

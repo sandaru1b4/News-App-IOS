@@ -30,7 +30,7 @@ struct LatestNewsCardView: View {
                 .indicator {_,_ in
                     ProgressView()
                 }
-                .frame(height: 240, alignment: .center)
+                .frame(width: 321, height: 240, alignment: .center)
                 .aspectRatio(contentMode: .fill)
                 .cornerRadius(8)
                 .clipped()
@@ -47,7 +47,7 @@ struct LatestNewsCardView: View {
                     VStack(alignment: .leading) {
                         
                         VStack(alignment: .leading, spacing: 5){
-                            Text(name)
+                            Text("By \(name)")
                                 .font(.customFont(.NunitoExtraBold, 10))
                             
                             Text(description)

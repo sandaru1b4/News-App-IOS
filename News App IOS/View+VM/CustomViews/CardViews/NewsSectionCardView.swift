@@ -11,10 +11,7 @@ import SDWebImageSwiftUI
 struct NewsSectionCardView: View {
     
     //MARK: - PROPERTIS
-    var imgUrlString: String
-    var title: String
-    var name: String
-    var date: String
+    var article: Article?
     
     //MARK: - BODY
     var body: some View {
@@ -22,7 +19,7 @@ struct NewsSectionCardView: View {
         VStack {
             
             //image
-            WebImage(url: URL(string: imgUrlString ))
+            WebImage(url: URL(string: article?.urlToImage ?? "" ))
                 .resizable()
                 .placeholder {
                     Rectangle().foregroundColor(Color.custom(._E0E0E0))
@@ -47,16 +44,16 @@ struct NewsSectionCardView: View {
                     VStack(alignment: .leading) {
                         
                         
-                        Text(title)
+                        Text(article?.title ?? "No Title")
                         
                       Spacer()
                         HStack {
                             
-                            Text(name)
+                            Text(article?.author ?? "No Author")
                             
                             Spacer()
                             
-                            Text(date)
+                            Text(dateSelected)
                         }
                         
                     }//VStack
@@ -70,12 +67,54 @@ struct NewsSectionCardView: View {
             
         }//VStack
     }
+    
+    //show selected date text
+    var dateSelected: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "d MMM y"
+        dateFormatter.locale = Locale.current
+        let dateString = dateFormatter.string(from: publishedDate(dateString: article?.publishedAt ?? ""))
+        
+        let weekDay = Calendar.current.component(.weekday, from: publishedDate(dateString: article?.publishedAt ?? ""))
+        switch weekDay {
+        case 1:
+            return "Sunday, \(dateString)"
+        case 2:
+            return "Monday, \(dateString)"
+        case 3:
+            return "Tuesday, \(dateString)"
+        case 4:
+            return "Wednesday, \(dateString)"
+        case 5:
+            return "Thursday, \(dateString)"
+        case 6:
+            return "Friday, \(dateString)"
+        case 7:
+            return "Saturday, \(dateString)"
+        default:
+            print("Error fetching days")
+            return "Day"
+        }
+    }
+    
+    
+    //convert string date to Date()
+    func publishedDate(dateString: String) -> Date {
+        let isoDate = dateString
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        let date = dateFormatter.date(from:isoDate)!
+        
+        return date
+    }
+    
 }
 
 
 //MARK: - PREVIEW
 struct NewsSectionCardView_Previews: PreviewProvider {
     static var previews: some View {
-        NewsSectionCardView(imgUrlString: "", title: "Test", name: "Test", date: "Test")
+        NewsSectionCardView()
     }
 }
