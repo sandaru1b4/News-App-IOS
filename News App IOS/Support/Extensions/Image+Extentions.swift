@@ -11,6 +11,7 @@ enum NewsAppImages: String {
     case ic_favourite
     case ic_home
     case ic_profile
+    case ic_notification
 }
 
 extension String {

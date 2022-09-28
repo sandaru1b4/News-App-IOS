@@ -28,6 +28,10 @@
 		84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0CC28E46E35009F2CE4 /* DeviceScreenSizes.swift */; };
 		84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0CE28E46E91009F2CE4 /* TabInfo.swift */; };
 		84E6C0D128E4704C009F2CE4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D028E4704C009F2CE4 /* MainTabView.swift */; };
+		84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */; };
+		84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */; };
+		84E6C0DD28E4833F009F2CE4 /* RappleProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */; };
+		84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C0DE28E48371009F2CE4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,9 @@
 		84E6C0CC28E46E35009F2CE4 /* DeviceScreenSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenSizes.swift; sourceTree = "<group>"; };
 		84E6C0CE28E46E91009F2CE4 /* TabInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabInfo.swift; sourceTree = "<group>"; };
 		84E6C0D028E4704C009F2CE4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornarRadiusStyle.swift; sourceTree = "<group>"; };
+		84E6C0DE28E48371009F2CE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E6C0DD28E4833F009F2CE4 /* RappleProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +88,9 @@
 		84ACDE1628E3CD8B00025210 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				84E6C0D828E480DE009F2CE4 /* ViewModifiers */,
 				84E6C0CB28E46E06009F2CE4 /* DeviceResponsiveHelper */,
 				84ACDE1C28E3D0FA00025210 /* Fonts */,
-				84ACDE1928E3CDBE00025210 /* API Helper */,
 				84ACDE1828E3CDB100025210 /* Extensions */,
 			);
 			path = Support;
@@ -91,6 +99,7 @@
 		84ACDE1728E3CD9400025210 /* View+VM */ = {
 			isa = PBXGroup;
 			children = (
+				84E6C0D228E479CA009F2CE4 /* Auth */,
 				84E6C0C828E46D85009F2CE4 /* Tab */,
 				84ACDE1B28E3CE3900025210 /* CustomViews */,
 			);
@@ -100,9 +109,11 @@
 		84ACDE1828E3CDB100025210 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				84ACDE1928E3CDBE00025210 /* API Helper */,
 				84ACDE3328E3D25100025210 /* Image+Extentions.swift */,
 				84ACDE3528E3D29E00025210 /* Fonts+Extentions.swift */,
 				84ACDE3728E3D2B900025210 /* Color+Extentions.swift */,
+				84E6C0DE28E48371009F2CE4 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -110,6 +121,7 @@
 		84ACDE1928E3CDBE00025210 /* API Helper */ = {
 			isa = PBXGroup;
 			children = (
+				84E6C0D628E47DF5009F2CE4 /* APIHelper.swift */,
 			);
 			path = "API Helper";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 		84ACDE1B28E3CE3900025210 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				84E6C0D528E47AC9009F2CE4 /* Tab */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -186,7 +199,6 @@
 		84E6C0C828E46D85009F2CE4 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				84E6C0C928E46DD2009F2CE4 /* TabBarView.swift */,
 				84E6C0D028E4704C009F2CE4 /* MainTabView.swift */,
 			);
 			path = Tab;
@@ -198,6 +210,45 @@
 				84E6C0CC28E46E35009F2CE4 /* DeviceScreenSizes.swift */,
 			);
 			path = DeviceResponsiveHelper;
+			sourceTree = "<group>";
+		};
+		84E6C0D228E479CA009F2CE4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0D428E479DB009F2CE4 /* SignUp */,
+				84E6C0D328E479D2009F2CE4 /* SignIn */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		84E6C0D328E479D2009F2CE4 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		84E6C0D428E479DB009F2CE4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		84E6C0D528E47AC9009F2CE4 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0C928E46DD2009F2CE4 /* TabBarView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		84E6C0D828E480DE009F2CE4 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				84E6C0D928E480FE009F2CE4 /* CornarRadiusStyle.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +267,9 @@
 			dependencies = (
 			);
 			name = "News App IOS";
+			packageProductDependencies = (
+				84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */,
+			);
 			productName = "News App IOS";
 			productReference = 84DE764028E3C7C8000E0BDA /* News App IOS.app */;
 			productType = "com.apple.product-type.application";
@@ -244,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 84DE763728E3C7C8000E0BDA;
+			packageReferences = (
+				84E6C0DB28E4833F009F2CE4 /* XCRemoteSwiftPackageReference "RappleProgressHUD" */,
+			);
 			productRefGroup = 84DE764128E3C7C8000E0BDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -283,11 +340,14 @@
 				84DE764628E3C7C8000E0BDA /* ContentView.swift in Sources */,
 				84ACDE3428E3D25100025210 /* Image+Extentions.swift in Sources */,
 				84E6C0D128E4704C009F2CE4 /* MainTabView.swift in Sources */,
+				84E6C0DA28E480FE009F2CE4 /* CornarRadiusStyle.swift in Sources */,
 				84DE764428E3C7C8000E0BDA /* News_App_IOSApp.swift in Sources */,
 				84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */,
 				84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */,
+				84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */,
 				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
 				84E6C0CA28E46DD2009F2CE4 /* TabBarView.swift in Sources */,
+				84E6C0D728E47DF5009F2CE4 /* APIHelper.swift in Sources */,
 				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -491,6 +551,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84E6C0DB28E4833F009F2CE4 /* XCRemoteSwiftPackageReference "RappleProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rjeprasad/RappleProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84E6C0DC28E4833F009F2CE4 /* RappleProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84E6C0DB28E4833F009F2CE4 /* XCRemoteSwiftPackageReference "RappleProgressHUD" */;
+			productName = RappleProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84DE763828E3C7C8000E0BDA /* Project object */;
 }

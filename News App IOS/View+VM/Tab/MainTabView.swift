@@ -45,7 +45,7 @@ struct MainTabView: View {
                 }
                 
             }//ZStack
-        .navigationBarHidden(true)
+            .navigationBarHidden(true)
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
