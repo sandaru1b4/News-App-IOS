@@ -59,7 +59,7 @@ struct NewsDetailView: View {
                     .clipped()
                     .offset(y: -30)
                     .overlay(
-                    
+                        
                         ZStack {
                             
                             RoundedRectangle(cornerRadius: 16)
@@ -88,7 +88,7 @@ struct NewsDetailView: View {
                         ,
                         alignment: .top
                         
-                    
+                        
                     )
                     
                     
@@ -100,26 +100,28 @@ struct NewsDetailView: View {
             
         }//VStack
         .overlay(
-        
+            
             //back button
             NavBarWithBackBtnView(title: "") {
                 //
                 presentation.wrappedValue.dismiss()
             }
-            .padding(.top, 16)
-            .padding(.leading, 15),
+                .padding(.top, 16)
+                .padding(.leading, 15),
             alignment: .topLeading
-        
-        
+            
+            
         )
         .overlay(
-        
+            
             //floating button
-            FloatingBtnView()
+            NavigationLink(destination: HotUpdatesView()) {
+                FloatingBtnView()
+            }
                 .padding(.bottom, 50)
                 .padding(.trailing, 15),
             alignment: .bottomTrailing
-        
+            
         )
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)

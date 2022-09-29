@@ -45,11 +45,13 @@ struct NewsSectionCardView: View {
                         
                         
                         Text(article?.title ?? "No Title")
+                            .multilineTextAlignment(.leading)
                         
                       Spacer()
                         HStack {
                             
                             Text(article?.author ?? "No Author")
+                                .lineLimit(1)
                             
                             Spacer()
                             

@@ -11,6 +11,9 @@ struct SignInView: View {
     var body: some View {
         //TODO: Create Sign In and Save data with Local Storage
         Text("Sign In")
+        
+        
+        
     }
 }
 

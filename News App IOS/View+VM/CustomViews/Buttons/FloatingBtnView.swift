@@ -12,9 +12,6 @@ struct FloatingBtnView: View {
     //MARK: - BODY
     var body: some View {
         
-        Button(action: {
-            //btn action
-        }) {
             Image(.appImages(.ic_favourite))
                 .foregroundColor(.white)
                 .padding(16)
@@ -22,7 +19,6 @@ struct FloatingBtnView: View {
                 Circle()
                     .fill(Color.custom(.primary))
                 )
-        }
         
     }
 }
