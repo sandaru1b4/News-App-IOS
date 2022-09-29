@@ -11,6 +11,7 @@
 		8454388028E52B4200DF01AE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454387F28E52B4200DF01AE /* SignUpView.swift */; };
 		8454388228E52B6500DF01AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454388128E52B6500DF01AE /* SignInView.swift */; };
 		8454388528E52C6A00DF01AE /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454388428E52C6A00DF01AE /* NewsDetailView.swift */; };
+		8454388828E54C9200DF01AE /* HotUpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454388728E54C9200DF01AE /* HotUpdatesView.swift */; };
 		84ACDE2728E3D11800025210 /* Nunito Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */; };
 		84ACDE2828E3D11800025210 /* Nunito Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */; };
 		84ACDE2928E3D11800025210 /* Nunito Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */; };
@@ -58,6 +59,7 @@
 		8454387F28E52B4200DF01AE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		8454388128E52B6500DF01AE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8454388428E52C6A00DF01AE /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		8454388728E54C9200DF01AE /* HotUpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotUpdatesView.swift; sourceTree = "<group>"; };
 		84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Bold.ttf"; sourceTree = "<group>"; };
 		84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Regular.ttf"; sourceTree = "<group>"; };
 		84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Medium.ttf"; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 			path = NewsDetais;
 			sourceTree = "<group>";
 		};
+		8454388628E54C7400DF01AE /* Hot Updates */ = {
+			isa = PBXGroup;
+			children = (
+				8454388728E54C9200DF01AE /* HotUpdatesView.swift */,
+			);
+			path = "Hot Updates";
+			sourceTree = "<group>";
+		};
 		84ACDE1528E3CD6D00025210 /* APP */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 				84E6C0C828E46D85009F2CE4 /* Tab */,
 				84E6C0E128E48607009F2CE4 /* MainTabs */,
 				8454388328E52C4400DF01AE /* NewsDetais */,
+				8454388628E54C7400DF01AE /* Hot Updates */,
 				84ACDE1B28E3CE3900025210 /* CustomViews */,
 				8454387C28E527C500DF01AE /* LaunchScreen */,
 			);
@@ -487,6 +498,7 @@
 				84E6C0F828E491CB009F2CE4 /* FilterBtnView.swift in Sources */,
 				84E6C10C28E4E1A1009F2CE4 /* CategorySection.swift in Sources */,
 				84E6C0CF28E46E91009F2CE4 /* TabInfo.swift in Sources */,
+				8454388828E54C9200DF01AE /* HotUpdatesView.swift in Sources */,
 				84E6C0CD28E46E35009F2CE4 /* DeviceScreenSizes.swift in Sources */,
 				84E6C0DF28E48371009F2CE4 /* Extensions.swift in Sources */,
 				84E6C0FB28E49592009F2CE4 /* NavBarWithBackBtnView.swift in Sources */,
