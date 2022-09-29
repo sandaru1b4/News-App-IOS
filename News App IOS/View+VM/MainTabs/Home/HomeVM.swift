@@ -26,7 +26,7 @@ class HomeVM: ObservableObject {
     ]
     @Published var selectedSectionId = 0
     
-    var baseUrl = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2022-08-28&sortBy=publishedAt&apiKey=a444ab036df1456090131cbb7786eda2")
+    var baseUrl = URL(string: "https://newsapi.org/v2/everything?q=tesla&sortBy=publishedAt&apiKey=a444ab036df1456090131cbb7786eda2")
     
     typealias Completionhandeler = (_ status: Bool, _ code: Int, _ message: String) -> ()
     
@@ -44,7 +44,7 @@ extension HomeVM {
     func getNewsList(q: String? = nil ,completion: @escaping Completionhandeler) {
         
         if searchText != "" {
-            URLSession.shared.request(url: URL(string: "https://newsapi.org/v2/everything?q=\(searchText)&from=2022-08-28&sortBy=publishedAt&apiKey=a444ab036df1456090131cbb7786eda2"),
+            URLSession.shared.request(url: URL(string: "https://newsapi.org/v2/everything?q=\(searchText)&sortBy=publishedAt&apiKey=a444ab036df1456090131cbb7786eda2"),
                                       expecting: Payload.self) { result in
                 switch result {
                     

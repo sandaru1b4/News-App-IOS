@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8454387E28E527F400DF01AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454387D28E527F400DF01AE /* LaunchScreen.storyboard */; };
+		8454388028E52B4200DF01AE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454387F28E52B4200DF01AE /* SignUpView.swift */; };
+		8454388228E52B6500DF01AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454388128E52B6500DF01AE /* SignInView.swift */; };
+		8454388528E52C6A00DF01AE /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454388428E52C6A00DF01AE /* NewsDetailView.swift */; };
 		84ACDE2728E3D11800025210 /* Nunito Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */; };
 		84ACDE2828E3D11800025210 /* Nunito Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */; };
 		84ACDE2928E3D11800025210 /* Nunito Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */; };
@@ -50,6 +54,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8454387D28E527F400DF01AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8454387F28E52B4200DF01AE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8454388128E52B6500DF01AE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8454388428E52C6A00DF01AE /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
 		84ACDE1D28E3D11800025210 /* Nunito Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Bold.ttf"; sourceTree = "<group>"; };
 		84ACDE1E28E3D11800025210 /* Nunito Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Regular.ttf"; sourceTree = "<group>"; };
 		84ACDE1F28E3D11800025210 /* Nunito Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito Medium.ttf"; sourceTree = "<group>"; };
@@ -105,6 +113,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8454387C28E527C500DF01AE /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8454387D28E527F400DF01AE /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		8454388328E52C4400DF01AE /* NewsDetais */ = {
+			isa = PBXGroup;
+			children = (
+				8454388428E52C6A00DF01AE /* NewsDetailView.swift */,
+			);
+			path = NewsDetais;
+			sourceTree = "<group>";
+		};
 		84ACDE1528E3CD6D00025210 /* APP */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +156,10 @@
 			children = (
 				84E6C0D228E479CA009F2CE4 /* Auth */,
 				84E6C0C828E46D85009F2CE4 /* Tab */,
+				84E6C0E128E48607009F2CE4 /* MainTabs */,
+				8454388328E52C4400DF01AE /* NewsDetais */,
 				84ACDE1B28E3CE3900025210 /* CustomViews */,
+				8454387C28E527C500DF01AE /* LaunchScreen */,
 			);
 			path = "View+VM";
 			sourceTree = "<group>";
@@ -236,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				84E6C0D028E4704C009F2CE4 /* MainTabView.swift */,
-				84E6C0E128E48607009F2CE4 /* MainTabs */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -261,6 +287,7 @@
 		84E6C0D328E479D2009F2CE4 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				8454388128E52B6500DF01AE /* SignInView.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -268,6 +295,7 @@
 		84E6C0D428E479DB009F2CE4 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				8454387F28E52B4200DF01AE /* SignUpView.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -432,6 +460,7 @@
 				84ACDE2C28E3D11800025210 /* Nunito ExtraBold.ttf in Resources */,
 				84ACDE2928E3D11800025210 /* Nunito Medium.ttf in Resources */,
 				84ACDE2A28E3D11800025210 /* Nunito Black.ttf in Resources */,
+				8454387E28E527F400DF01AE /* LaunchScreen.storyboard in Resources */,
 				84ACDE2828E3D11800025210 /* Nunito Regular.ttf in Resources */,
 				84ACDE2728E3D11800025210 /* Nunito Bold.ttf in Resources */,
 				84ACDE2F28E3D11800025210 /* New York Bold.ttf in Resources */,
@@ -463,13 +492,16 @@
 				84E6C0FB28E49592009F2CE4 /* NavBarWithBackBtnView.swift in Sources */,
 				84E6C0F528E49176009F2CE4 /* NotificationBtnView.swift in Sources */,
 				84E6C0E828E48678009F2CE4 /* HomeVM.swift in Sources */,
+				8454388028E52B4200DF01AE /* SignUpView.swift in Sources */,
 				84E6C0FD28E499D4009F2CE4 /* SectionBtnView.swift in Sources */,
 				84E6C10128E49F72009F2CE4 /* FavoriteView.swift in Sources */,
 				84E6C10328E49FA8009F2CE4 /* ProfileView.swift in Sources */,
 				84ACDE3628E3D29E00025210 /* Fonts+Extentions.swift in Sources */,
 				84E6C10528E4ADAC009F2CE4 /* NewsSectionCardView.swift in Sources */,
+				8454388228E52B6500DF01AE /* SignInView.swift in Sources */,
 				84E6C0CA28E46DD2009F2CE4 /* TabBarView.swift in Sources */,
 				84E6C0D728E47DF5009F2CE4 /* APIManager.swift in Sources */,
+				8454388528E52C6A00DF01AE /* NewsDetailView.swift in Sources */,
 				84ACDE3828E3D2B900025210 /* Color+Extentions.swift in Sources */,
 				84E6C10A28E4C739009F2CE4 /* News.swift in Sources */,
 				84E6C0FF28E49E39009F2CE4 /* FloatingBtnView.swift in Sources */,
@@ -608,8 +640,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,8 +675,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
