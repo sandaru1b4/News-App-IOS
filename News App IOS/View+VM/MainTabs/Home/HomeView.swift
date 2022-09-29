@@ -90,7 +90,9 @@ struct HomeView: View {
                     
                     LazyVStack(spacing: 8) {
                         ForEach(vm.newsList,  id: \.title) { article in
-                            NewsSectionCardView(article: article)
+                            NavigationLink(destination: NewsDetailView(article: article)) {
+                                NewsSectionCardView(article: article)
+                            }
                         }
                     }//LazyVStack
                     .padding(.horizontal, 15)
