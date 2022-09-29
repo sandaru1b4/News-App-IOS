@@ -37,14 +37,23 @@ struct NewsDetailView: View {
                         .aspectRatio(contentMode: .fill)
                     
                     
-                    VStack {
+                    VStack(alignment: .leading) {
                         
                         ZStack {
+                            //background
                             RoundedRectangle(cornerRadius: 30)
                                 .fill(.white)
+                            
+                            //content
+                            VStack {
+                                
+                                Text(article?.content ?? " No Content")
+                                
+                            }
+                            .padding(.horizontal, 15)
                         }
                         
-                    }
+                    }//VSTack
                     .frame(minHeight: 350)
                     .customCornerRadius(radius: 30, corners: [.topLeft, .topRight])
                     .clipped()
@@ -58,13 +67,13 @@ struct NewsDetailView: View {
                             
                             VStack(alignment: .leading, spacing: 8) {
                                 
-                                Text("Sunday, 9 May 2021")
+                                Text(dateSelected)
                                     .font(.customFont(.NunitoSemiBold, 12))
                                 
-                                Text("Crypto investors should be prepared to lose all their money, BOE governor says")
+                                Text(article?.articleDescription ?? "No Description")
                                     .font(.customFont(.NewYorkBold, 16))
                                 
-                                Text("Published by Ryan Browne")
+                                Text("Published by \(article?.author ?? "Anonymous")")
                                     .font(.customFont(.NunitoExtraBold, 10))
                             }
                             .padding(.vertical, 16)
@@ -116,6 +125,49 @@ struct NewsDetailView: View {
         .navigationBarBackButtonHidden(true)
         
     }
+    
+    
+    //show selected date text
+    var dateSelected: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "d MMM y"
+        dateFormatter.locale = Locale.current
+        let dateString = dateFormatter.string(from: publishedDate(dateString: article?.publishedAt ?? ""))
+        
+        let weekDay = Calendar.current.component(.weekday, from: publishedDate(dateString: article?.publishedAt ?? ""))
+        switch weekDay {
+        case 1:
+            return "Sunday, \(dateString)"
+        case 2:
+            return "Monday, \(dateString)"
+        case 3:
+            return "Tuesday, \(dateString)"
+        case 4:
+            return "Wednesday, \(dateString)"
+        case 5:
+            return "Thursday, \(dateString)"
+        case 6:
+            return "Friday, \(dateString)"
+        case 7:
+            return "Saturday, \(dateString)"
+        default:
+            print("Error fetching days")
+            return "Day"
+        }
+    }
+    
+    
+    //convert string date to Date()
+    func publishedDate(dateString: String) -> Date {
+        let isoDate = dateString
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        let date = dateFormatter.date(from:isoDate)!
+        
+        return date
+    }
+    
 }
 
 //MARK: - PREVIEW

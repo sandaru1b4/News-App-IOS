@@ -55,9 +55,10 @@ struct HomeView: View {
                         ScrollView(.horizontal, showsIndicators: false) {
                             
                             HStack(spacing: 8) {
-                                ForEach(0..<10) { _ in
-                                    
-                                    LatestNewsCardView(imgUrlString: "https://picsum.photos/seed/picsum/200/300", name: "By Test", description: "Crypto investors should be prepared to lose all their money, BOE governor says", subDescription: "I’m going to say this very bluntly again,” he added. “Buy them only if you’re prepared to lose all your money.")
+                                ForEach(vm.newsList,  id: \.title) { article in
+                                    NavigationLink(destination: NewsDetailView(article: article)) {
+                                        LatestNewsCardView(article: article)
+                                    }
                                 }
                             }//HStack
                             .padding(.leading, 15)
@@ -114,17 +115,17 @@ struct HomeView: View {
     
     //MARK: - FUNCTIONS
     
-  private func getNewsList() {
-      startLoading()
-      vm.getNewsList { status, code, message in
-          stopLoading()
-          if status {
-              
-          } else {
-
-          }
-      }
-      
+    private func getNewsList() {
+        startLoading()
+        vm.getNewsList { status, code, message in
+            stopLoading()
+            if status {
+                
+            } else {
+                
+            }
+        }
+        
     }
     
     

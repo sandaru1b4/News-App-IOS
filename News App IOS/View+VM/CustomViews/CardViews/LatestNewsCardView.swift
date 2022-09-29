@@ -11,10 +11,7 @@ import SDWebImageSwiftUI
 struct LatestNewsCardView: View {
     
     //MARK: - PROPERTIS
-    var imgUrlString: String
-    var name: String
-    var description: String
-    var subDescription: String
+    var article: Article?
     
     //MARK: - BODY
     var body: some View {
@@ -22,7 +19,7 @@ struct LatestNewsCardView: View {
         VStack {
             
             //image
-            WebImage(url: URL(string: imgUrlString ))
+            WebImage(url: URL(string: article?.urlToImage ?? "" ))
                 .resizable()
                 .placeholder {
                     Rectangle().foregroundColor(Color.custom(._E0E0E0))
@@ -47,19 +44,20 @@ struct LatestNewsCardView: View {
                     VStack(alignment: .leading) {
                         
                         VStack(alignment: .leading, spacing: 5){
-                            Text("By \(name)")
+                            Text("By \(article?.author ?? "")")
                                 .font(.customFont(.NunitoExtraBold, 10))
                             
-                            Text(description)
+                            Text(article?.articleDescription ?? "")
                                 .font(.customFont(.NewYorkBold, 16))
                         }
                         .padding(.bottom, 40)
                         
-                        Text(subDescription)
+                        Text(article?.content ?? "")
                             .font(.customFont(.NunitoRegular, 10))
                         
                         
                     }//VStack
+                        .multilineTextAlignment(.leading)
                         .foregroundColor(.white)
                         .padding(16)
                     ,
@@ -77,6 +75,6 @@ struct LatestNewsCardView: View {
 //MARK: - PREVIEW
 struct LatestNewsCardView_Previews: PreviewProvider {
     static var previews: some View {
-        LatestNewsCardView(imgUrlString: "https://picsum.photos/seed/picsum/200/300", name: "By Test", description: "Crypto investors should be prepared to lose all their money, BOE governor says", subDescription: "I’m going to say this very bluntly again,” he added. “Buy them only if you’re prepared to lose all your money.")
+        LatestNewsCardView()
     }
 }
